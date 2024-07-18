@@ -1,11 +1,3 @@
-# dio-project-banco
+# dio-projects-java-spring
 
-Lógica de programação e POO;
-
-Conhecimentos básicos em Java;
-
-Computador com SO de sua preferência(Windows, Linux, Mac OS);
-
-IDE (Visual Studio Code, Eclipse, etc);
-
-Projeto desenvolvido no curso: trilha-java-basico | JAVA COM SPRING BOOT
+Projetos desenvolvidos no curso: DIO | JAVA COM SPRING BOOT
