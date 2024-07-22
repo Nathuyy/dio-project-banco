@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/dio-project-banco/dio-project-banco.iml" filepath="$PROJECT_DIR$/dio-project-banco/dio-project-banco.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dio-project-poo/dio-project-poo.iml" filepath="$PROJECT_DIR$/dio-project-poo/dio-project-poo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dio-project-processo-seletivo/dio-project-processo-seletivo.iml" filepath="$PROJECT_DIR$/dio-project-processo-seletivo/dio-project-processo-seletivo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/dio-projects-java-spring.iml" filepath="$PROJECT_DIR$/.idea/dio-projects-java-spring.iml" />
+    </modules>
+  </component>
+</project>
