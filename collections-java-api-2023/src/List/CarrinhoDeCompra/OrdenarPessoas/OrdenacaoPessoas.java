@@ -1,4 +1,4 @@
-package OrdenarPessoas;
+package List.CarrinhoDeCompra.OrdenarPessoas;
 
 import java.util.ArrayList;
 import java.util.Collections;

@@ -1,4 +1,4 @@
-package ListaDeTarefas;
+package List.CarrinhoDeCompra.ListaDeTarefas;
 
 public class Tarefa {
     private String descricao;

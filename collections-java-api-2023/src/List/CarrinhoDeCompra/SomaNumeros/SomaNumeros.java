@@ -1,4 +1,4 @@
-package SomaNumeros;
+package List.CarrinhoDeCompra.SomaNumeros;
 
 import java.util.ArrayList;
 import java.util.List;

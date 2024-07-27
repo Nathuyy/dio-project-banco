@@ -1,4 +1,4 @@
-package CarrinhoDeCompra;
+package List.CarrinhoDeCompra;
 
 import java.util.ArrayList;
 import java.util.List;
