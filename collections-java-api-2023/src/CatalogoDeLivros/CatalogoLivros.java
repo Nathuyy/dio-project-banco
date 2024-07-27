@@ -1,4 +1,4 @@
-package CatálogoDeLivros;
+package CatalogoDeLivros;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -23,7 +23,7 @@ public class CatalogoLivros {
                 }
             }
             return livrosPorAutor;
-        }else{
+        } else {
             throw new RuntimeException("A lista está vazia!");
         }
     }
@@ -37,10 +37,35 @@ public class CatalogoLivros {
                 }
             }
             return livrosPorIntervaloAnos;
-        }else{
+        } else {
             throw new RuntimeException("A lista está vazia!");
         }
     }
 
+    public List<Livro> pesquisarPorTitulo(String titulo) {
+        List<Livro> livrosPorTitulo = new ArrayList<>();
+        if (!listaLivros.isEmpty()) {
+            for (Livro i : listaLivros) {
+                if (i.getTitulo().equalsIgnoreCase(titulo)) {
+                    livrosPorTitulo.add(i);  // Corrected line
+                }
+            }
+            return livrosPorTitulo;
+        } else {
+            throw new RuntimeException("A lista está vazia!");
+        }
+    }
 
+    public static void main(String[] args) {
+        CatalogoLivros catalogoLivros = new CatalogoLivros();
+
+        catalogoLivros.adicionarLivro("Microsserviços Prontos Para a Produção", "Susan J. Fowler", 2017);
+        catalogoLivros.adicionarLivro("Java Guia do Programador", "Peter Jandl Junior", 2021);
+        catalogoLivros.adicionarLivro("Código Limpo", "Robert C. Martin", 2009);
+        catalogoLivros.adicionarLivro("O Codificador Limpo", "Robert C. Martin", 2012);
+
+        System.out.println(catalogoLivros.pesquisarPorTitulo("Código Limpo"));
+        System.out.println(catalogoLivros.pesquisarPorAutor("Robert C. Martin"));
+        System.out.println(catalogoLivros.pesquisarPorIntervaloAnos(2010, 2022));
+    }
 }

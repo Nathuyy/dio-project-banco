@@ -1,4 +1,4 @@
-package CatálogoDeLivros;
+package CatalogoDeLivros;
 
 public class Livro {
     private String titulo;
@@ -37,6 +37,10 @@ public class Livro {
 
     @Override
     public String toString() {
-        return super.toString();
+        return "Livro{" +
+                "titulo='" + titulo + '\'' +
+                ", autor='" + autor + '\'' +
+                ", anoPublicacao=" + anoPublicacao +
+                '}';
     }
 }
