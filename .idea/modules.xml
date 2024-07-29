@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/collections-java-api-2023/collections-java-api-2023.iml" filepath="$PROJECT_DIR$/collections-java-api-2023/collections-java-api-2023.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dio-project-Banco-Digital/dio-project-Banco-Digital.iml" filepath="$PROJECT_DIR$/dio-project-Banco-Digital/dio-project-Banco-Digital.iml" />
       <module fileurl="file://$PROJECT_DIR$/dio-project-banco/dio-project-banco.iml" filepath="$PROJECT_DIR$/dio-project-banco/dio-project-banco.iml" />
       <module fileurl="file://$PROJECT_DIR$/dio-project-poo/dio-project-poo.iml" filepath="$PROJECT_DIR$/dio-project-poo/dio-project-poo.iml" />
       <module fileurl="file://$PROJECT_DIR$/dio-project-processo-seletivo/dio-project-processo-seletivo.iml" filepath="$PROJECT_DIR$/dio-project-processo-seletivo/dio-project-processo-seletivo.iml" />
